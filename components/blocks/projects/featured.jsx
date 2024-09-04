@@ -47,9 +47,9 @@ export default function FeaturedProject({ content }, index) {
 					<div className={css.stackContainer}>
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
-					<m.div variants={''} className={css.viewProject}>
+					{/* <m.div variants={''} className={css.viewProject}>
 						<Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} />
-					</m.div>
+					</m.div> */}
 				</div>
 			</div>
 

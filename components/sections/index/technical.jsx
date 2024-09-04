@@ -30,20 +30,20 @@ export default function Technical() {
 				<SectionTitle
 					title="Technical"
 					preTitle="Hardskills"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					subTitle="As a Computer Science and Engineering student, I work in many fields, using a diverse toolset."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
 						<CopyBlock 
-							title="Polymath foundations"
+							title="Interdisciplinary foundations"
 							icon={[ 'fat', 'chart-network' ]}
-							copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
+							copy="With a strong background in both Computer Science and Engineering, I bring a unique perspective to every project. My interdisciplinary approach allows me to tackle complex problems from multiple angles, whether it's developing innovative software solutions or designing efficient systems. I'm constantly learning and evolving to stay at the forefront of technological advancements in fields such as robotics, human-computer interaction, and software engineering."
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
 						<BadgesBlock 
-							title="Software I love to work with" 
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+							title="Software I work with" 
+							copy="Throughout my academic and professional experiences, I've gained proficiency in a variety of software tools that are essential for modern software development and research. Here are some of the key tools I work with:"
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
@@ -52,7 +52,7 @@ export default function Technical() {
 							headerIcon={about.icon} 
 						/>
 						<BadgesBlock 
-							title="Technologies I love to build with" 
+							title="Technologies I build with" 
 							copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
 							list={tech} 
 							block="tech"
@@ -73,15 +73,16 @@ export default function Technical() {
 }
 
 const software = [
+	{ key: 'vscode', 		name: 'Visual Studio Code', type: 'devicon' },
+	{ key: 'intellij', 		name: 'IntelliJ IDEA', 		type: 'devicon' },
+	{ key: 'webstorm', 		name: 'WebStorm', 			type: 'devicon' },
+	{ key: 'pycharm', 		name: 'PyCharm', 			type: 'devicon' },
+	{ key: 'jupyter', 		name: 'Jupyter', 			type: 'devicon' },
 	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
-	{ key: 'illustrator', 	name: 'Illustrator', 		type: 'devicon' },
+	{ key: 'illustrator',	name: 'Illustrator', 		type: 'devicon' },
 	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
-	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
-	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
-	{ key: 'computer-mouse',name: 'Click Up', 			type: 'fas' },
-	{ key: 'list-music',	name: 'Ableton', 			type: 'fas' },
-	{ key: 'aftereffects',	name: 'After Effects', 		type: 'devicon' },
-	{ key: 'premierepro',	name: 'Premiere Pro', 		type: 'devicon' },
+	{ key: 'github', 		name: 'GitHub', 			type: 'devicon' },
+	{ key: 'gitlab', 		name: 'GitLab', 			type: 'devicon' }
 ]
 
 const tech	= [
@@ -91,12 +92,14 @@ const tech	= [
 	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
 	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
 	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
-	{ key: "google",		name: "GA4/GTM", 			type: "devicon" },
+	{ key: 'java', 			name: 'Java', 				type: 'devicon' },
+	{ key: 'python', 		name: 'Python', 			type: 'devicon' },
+	{ key: 'c', 			name: 'C', 					type: 'devicon' },
+	{ key: 'cplusplus', 			name: 'C++', 				type: 'devicon' },
 	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
 	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
 	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
+	{ key: 'bootstrap', 	name: 'Bootstrap', 			type: 'devicon' },
 	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
 	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
 	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },

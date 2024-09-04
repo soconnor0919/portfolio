@@ -63,6 +63,21 @@
 		gap: 1rem;
 	}
 
+	.sectionHeading {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		// apply a size between h3 and h2
+		//apply a font color of blue
+		//apply a font weight of 600
+		//center!!
+		
+		text-align: center;
+		font-size: 1.5rem;
+		// color: red;
+		font-weight: 600;
+	}
+
 	.position {
 		margin-left: calc( var(--grid-32) * 2 );
 		background: var(--background-dim);
