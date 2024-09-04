@@ -41,7 +41,7 @@ export default function Career() {
               </span>
               <p>
                 Cumulative Engineering GPA: 3.90<br></br>
-                Dean's List: Fall 2022, Fall 2023, Spring 2024
+                Dean&apos;s List: Fall 2022, Fall 2023, Spring 2024
               </p>
             </div>
             <div className={career.companyAlt}></div>
